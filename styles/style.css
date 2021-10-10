@@ -4,6 +4,11 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+div img{
+    display: block;
+    width: 100%;
+}
+
 .flex-container{
     max-width: 992px;
     width: 100%;
@@ -66,4 +71,35 @@ nav.menu{
     line-height: 50px;
     border-radius: 30px;
     margin-top: 10px;
+}
+
+.about{
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between
+}
+
+.about h2{
+    font-size: 2rem;
+    color: #122a57;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.about h2::before{
+    content: "";
+    width: 5px;
+    height: 50px;
+    margin-right: 5px;
+    background-color: #122a57;
+    position: relative;
+}
+
+.about p{
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.about img{
+    min-width: 420px;
 }
