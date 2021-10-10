@@ -22,6 +22,10 @@ header{
     align-items: center;
 }
 
+.header-container .logo{
+    color: white;
+}
+
 nav.menu{
     max-width: 260px;
     width: 100%;
@@ -37,4 +41,29 @@ nav.menu{
 .list-items li a{
     text-decoration: none;
     color: white;
+}
+
+.presentation{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-presentation h1{
+    color: #122a57;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.text-presentation a{
+    display: block;
+    width: 220px;
+    height: 50px;
+    background-color: #122a57;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    margin-top: 10px;
 }
