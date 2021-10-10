@@ -14,6 +14,7 @@ div img{
     width: 100%;
     margin: auto;
     display: flex;
+    min-width: 320px;
 }
 
 .header-container{
@@ -52,6 +53,10 @@ nav.menu{
     height: 100vh;
     align-items: center;
     justify-content: space-between;
+}
+
+.presentation .text-presentation{
+    min-width: 200px;
 }
 
 .text-presentation h1{
@@ -163,6 +168,7 @@ nav.menu{
 
 .plans h2{
     font-size: 2rem;
+    color: #122a57;
 }
 
 .plans .list-plans{
@@ -237,4 +243,86 @@ footer{
 
 .foot p{
     color: white;
+}
+
+@media(max-width: 992px){
+    .flex-container{
+        flex-direction: column;
+    }
+
+    .header-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu{
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .menu .list-items{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .presentation{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+
+    .presentation .text-presentation{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .about{
+        flex-direction: column-reverse;
+    }
+
+    .about img{
+        min-width: 320px;
+        margin: auto;
+    }
+
+    .about div{
+        margin: 20px 15px;
+    }
+
+    .services h2, .plans h2{
+        margin: 20px 15px;
+    }
+
+    .list-services{
+        flex-direction: column;
+    }
+
+    .item-service{
+        margin-bottom: 20px;
+    }
+
+    .item-service img{
+        width: 50%;
+        margin: auto;
+    }
+
+    .list-plans{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .list-plans .item-plan{
+        max-width: 70%;
+        margin: auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .foot{
+        flex-direction: column;
+        align-items: center;
+    }
 }
