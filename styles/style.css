@@ -4,20 +4,37 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-ul{
-    list-style: none;
-}
-
-ul li a{
-    text-decoration: none;
-}
-
 .flex-container{
     max-width: 992px;
+    width: 100%;
     margin: auto;
     display: flex;
 }
 
+.header-container{
+    justify-content: space-between;
+}
+
 header{
     background-color: #122a57;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav.menu{
+    max-width: 260px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.menu .list-items{
+    list-style: none;
+    justify-content: space-between;
+}
+
+.list-items li a{
+    text-decoration: none;
+    color: white;
 }
