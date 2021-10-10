@@ -103,3 +103,54 @@ nav.menu{
 .about img{
     min-width: 420px;
 }
+
+.external-container{
+    background-color: #122a57;
+    width: 100%;
+}
+
+.services{
+    flex-direction: column;
+    padding: 50px 0 100px 0;
+}
+.services h2{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.list-services{
+    justify-content: space-around;
+}
+
+.list-services .item-service{
+    text-align: center;
+}
+
+.item-service a{
+    width: 220px;
+    height: 50px;
+    background-color: white;
+    color: #122a57;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 5px 10px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.item-service p{
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: white;
+    margin-top: 20px;
+}
+
+.item-service img{
+    max-width: 160px;
+    max-height: 160px;
+    margin: auto;
+}
