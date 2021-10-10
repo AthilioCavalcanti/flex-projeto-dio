@@ -60,7 +60,7 @@ nav.menu{
     margin-bottom: 10px;
 }
 
-.text-presentation a{
+.btn{
     display: block;
     width: 220px;
     height: 50px;
@@ -153,4 +153,88 @@ nav.menu{
     max-width: 160px;
     max-height: 160px;
     margin: auto;
+}
+
+.plans{
+    min-height: 100vh;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.plans h2{
+    font-size: 2rem;
+}
+
+.plans .list-plans{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.list-plans .item-plan{
+    flex: 1;
+    border: 5px solid #122a57;
+    margin-right: 20px;
+    padding: 10px;
+    max-width: 240px;
+}
+
+.item-plan .btn{
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.item-plan h3{
+    font-size: 1.5rem;
+    color: #122a57;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.item-plan h3::after{
+    content: "";
+    background-color: #122a57;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.item-plan ul{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.item-plan ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.item-plan ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #122a57;
+    margin-right: 5px;
+}
+
+footer{
+    background-color: #122a57;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.foot{
+    justify-content: space-between;
+}
+
+.foot p{
+    color: white;
 }
