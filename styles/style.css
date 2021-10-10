@@ -172,6 +172,7 @@ nav.menu{
 }
 
 .plans .list-plans{
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -315,7 +316,7 @@ footer{
     }
 
     .list-plans .item-plan{
-        max-width: 70%;
+        max-width: 90%;
         margin: auto;
         width: 100%;
         margin-bottom: 20px;
